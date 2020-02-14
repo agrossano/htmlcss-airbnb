@@ -9,8 +9,22 @@
   position: relative;
 }
 
-.image img {
+body {
   position: relative;
+}
+
+
+.layover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+
+.image img {
   width: 100vw;
   height: calc(100vh / 3);
   object-fit:cover;
@@ -23,7 +37,12 @@
   bottom: calc((100vh / 3) / 2);
   z-index: 1;
   transform: translate(-50%,50%);
-  font-size: 2em;
+  font-size: 70px;
   font-weight: 900;
-  text-align:center;
+  color:#eeeef0;
+  text-transform: uppercase;
+  text-shadow: 0px 3px 0px #b2a98f,
+               0px 14px 10px rgba(0,0,0,0.15),
+               0px 24px 2px rgba(0,0,0,0.1),
+               0px 34px 30px rgba(0,0,0,0.1);
 }
