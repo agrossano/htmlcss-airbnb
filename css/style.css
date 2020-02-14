@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -13,11 +15,13 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .4);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  opacity: 0.5;
 }
 
 .layover:hover {
-  background-color: rgba(0, 0, 0, .3);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  opacity: 0.2;
 }
 
 .image img {
@@ -25,21 +29,24 @@
   height: calc(100vh / 3);
   object-fit:cover;
   display: block;
-  border: 5px solid white;
+  border: 2px solid white;
 }
+
 
 .image span {
   position:absolute;
   left: 50%;
   bottom: calc((100vh / 3) / 2);
-  z-index: 1;
+  z-index: 4;
   transform: translate(-50%,50%);
-  font-size: 70px;
+  font-family: 'Press Start 2P', cursive;
+  font-size:5rem;
   font-weight: 900;
   color:#eeeef0;
   text-transform: uppercase;
-  text-shadow: 0px 3px 0px #b2a98f,
-               0px 14px 10px rgba(0,0,0,0.15),
-               0px 24px 2px rgba(0,0,0,0.1),
-               0px 34px 30px rgba(0,0,0,0.1);
+  text-shadow:
+              0rem 0.5rem 0rem #EA4C89,
+              0rem 1rem 0rem #C32360,
+              0rem 1.5rem 0rem #8E1344;
+
 }
