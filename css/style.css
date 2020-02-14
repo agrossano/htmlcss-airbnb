@@ -4,15 +4,9 @@
   box-sizing: border-box;
 }
 
-
 .image {
   position: relative;
 }
-
-/* body {
-  position: relative;
-} */
-
 
 .layover{
   position: absolute;
@@ -25,7 +19,6 @@
 .layover:hover {
   background-color: rgba(0, 0, 0, .3);
 }
-
 
 .image img {
   width: 100vw;
